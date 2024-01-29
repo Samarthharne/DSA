@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int minidiiff(int arr[],int n){
+int minidiff(int arr[],int n){
     int res=INT_MAX;
     for(int i=1;i<n;i++){
         int minidiff=arr[i]-arr[i-1];
